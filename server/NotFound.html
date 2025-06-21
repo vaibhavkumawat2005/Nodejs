@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .error-icon {
+            font-size: 3em;
+            color: #ff4444;
+            margin-bottom: 10px;
+        }
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        a .fa-arrow-left {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <a href="/server/home.html"><i class="fa-solid fa-arrow-left"></i> Back to home</a>
+    <i class="fa-solid fa-exclamation-circle error-icon"></i>
+    <h1>
+        404 Not Found
+        <br>
+        The page you are looking for does not exist.    
+    </h1>
+</body>
+</html>
