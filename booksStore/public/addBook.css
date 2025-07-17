@@ -1,0 +1,132 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+header {
+  background-color: #4F5788;
+  color: white;
+  padding: 1rem;
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  height: 40px;
+  margin-right: 1rem;
+}
+header h1 {
+  font-size: 1.8rem;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header nav .add-book-btn {
+    background-color: #C83635;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+header nav .add-book-btn:hover {
+    background-color: #892967;
+  text-decoration: none;
+}
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+main h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+.add-book-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #1e40af;
+  box-shadow: 0 0 5px rgba(30, 64, 175, 0.2);
+}
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+.form-group .error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.submit-btn:hover {
+  background-color: #15803d;
+}
+footer {
+  background-color: #1e40af;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
