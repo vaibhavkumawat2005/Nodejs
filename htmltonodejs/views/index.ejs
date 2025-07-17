@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie List</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 My Movie List</h1>
+    <a href="/add" class="btn btn-add">➕ Add Movie</a>
+    <ul class="movie-list">
+      <% movies.forEach((movie, index) => { %>
+        <li class="movie-card">
+          <div class="movie-details">
+            <strong><%= movie.title %></strong> <span>(<%= movie.year %>)</span>
+          </div>
+          <form action="/delete/<%= index %>" method="post">
+            <button type="submit" class="btn btn-delete">🗑️</button>
+          </form>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+</body>
+</html>
