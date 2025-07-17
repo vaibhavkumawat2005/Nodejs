@@ -110,7 +110,7 @@ main h2 {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background-color: #16a34a;
+  background-color: #892967;
   color: white;
   border: none;
   border-radius: 4px;
@@ -118,9 +118,7 @@ main h2 {
   cursor: pointer;
   transition: background-color 0.2s;
 }
-.submit-btn:hover {
-  background-color: #15803d;
-}
+
 footer {
   background-color: #1e40af;
   color: white;
